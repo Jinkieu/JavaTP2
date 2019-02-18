@@ -1,8 +1,12 @@
 package com.company;
+import javax.swing.* ;
 
 public class Main {
 
     public static void main(String[] args) {
-        Factorielle test = new Factorielle();
+        Decouverte test = new Decouverte();
+
+        Fenetre f = new Fenetre();
+
     }
 }
