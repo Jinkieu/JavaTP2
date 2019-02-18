@@ -7,7 +7,7 @@ import javax.swing.*;
         public Fenetre() {
 
             JFrame fenetre = new JFrame();
-            fenetre.setTitle("TP3 Java");
+            fenetre.setTitle("TP Java");
             fenetre.setSize(400, 400);
             fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             fenetre.setVisible(true);
