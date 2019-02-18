@@ -26,6 +26,7 @@ public class Decouverte extends JFrame {
         textField.setToolTipText("Victor est beau");
         text.setForeground(Color.red);
         button.setBackground(Color.yellow);
+        textField.setBorder(BorderFactory.createLineBorder(Color.orange,2));
 
         pan1.add(button);
         pan2.add(text);
