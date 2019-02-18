@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class Factorielle {
     private JLabel title = new JLabel("Calcul de factorielle");
-    private JTextField textField = new JTextField("entrer un nombre",10);
+    private JTextField textField = new JTextField(10);
     private JButton button = new JButton("Entrer");
 
     private JPanel container = new JPanel();
@@ -28,6 +28,11 @@ public class Factorielle {
         panTextField.add(textField);
         panButton.add(button);
 
+        container.add(panTitle,BorderLayout.NORTH);
+        container.add(panTextField, BorderLayout.CENTER);
+        container.add(panButton, BorderLayout.SOUTH);
+
+        fenetre.setContentPane(container);
         fenetre.setVisible(true);
     }
 }

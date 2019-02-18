@@ -4,9 +4,9 @@ import javax.swing.* ;
 public class Main {
 
     public static void main(String[] args) {
-        Decouverte test = new Decouverte();
+        Factorielle test = new Factorielle();
 
-        Fenetre f = new Fenetre();
+        //Fenetre f = new Fenetre();
 
     }
 }
