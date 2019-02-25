@@ -58,9 +58,28 @@ public class CalculDeMonAge {
         c.gridy = 1;
         pan1.add(t_prenom, c);
 
+        c.fill = GridBagConstraints.HORIZONTAL;
+        c.gridx = 0;
+        c.gridy = 2;
+        c.gridwidth = 2;
+        pan1.add(l_annee, c);
+        c.weightx=0.0;
+        pan1.add(t_annee, c);
 
-        //pan1.add(l_annee, );
-        //pan2.add(t_annee);
+        c.fill = GridBagConstraints.HORIZONTAL;
+        c.gridx = 0;
+        c.gridy = 3;
+        c.gridwidth = 2;
+        pan1.add(t_result, c);
+
+        c.gridwidth = 1;
+        c.gridx = 0;
+        c.gridy = 4;
+        pan1.add(b_age, c);
+
+        c.gridx = 1;
+        c.gridy = 4;
+        pan1.add(b_reverse, c);
 
         pan1.setBackground(Color.GREEN);
         pan1.setBorder(null);
