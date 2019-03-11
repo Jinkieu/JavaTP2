@@ -20,7 +20,7 @@ public class Fenetre extends JFrame {
 
         pan.add(bouton);
         pan.add(Un);
-        System.out.println(Un);
+        //System.out.println(Un);
         //pan.add(Deux);
         //pan.add(Trois);
         Deux = addBoutton("Deux");
@@ -28,7 +28,6 @@ public class Fenetre extends JFrame {
         Trois = addBoutton("Trois");
         System.out.println(Trois);
         this.setContentPane(pan);
-        this.setVisible(true);
 
         bouton.addActionListener(new ActionListener() {
             @Override
