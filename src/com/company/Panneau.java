@@ -5,7 +5,15 @@ import java.awt.*;
 
 public class Panneau extends JPanel {
     public void paintComponent(Graphics g) {
+
+        int x1= this.getWidth()/4;
+        int y2 = this.getHeight()/4;
+
+
+
         System.out.println("paintComponent invoque");
-        g.fillOval(20,20,75,75);
+       g.drawString("Bogoss Mascado",this.getWidth()/4,this.getHeight()/2);
     }
+
 }
+
